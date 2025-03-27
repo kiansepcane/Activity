@@ -1,0 +1,28 @@
+.small-box-3 {
+    width: 120px;
+    height: 80px;
+    background-color: lightyellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .btn {
+    background-color: #ddd;
+    border: none;
+    padding: 10px 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #bbb;
+  }
+  

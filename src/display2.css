@@ -1,0 +1,24 @@
+.small-box-2 {
+    width: 250px;
+    height: 150px;
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid black;
+    position: absolute;
+    top: 60%; /* Centers it below the first box */
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .count-display {
+    margin-bottom: 100px; /* Moves count a bit higher */
+    font-size: 15px; /* Increase font size */
+    font-weight: bold;
+    color: #333; /* Darker color for better contrast */
+  }
+  
